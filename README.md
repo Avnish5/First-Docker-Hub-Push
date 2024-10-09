@@ -28,3 +28,14 @@ To get started with this project, you can clone the repository and build the Doc
    git clone https://github.com/Avnish5/First-Docker-Hub-Push.git
    cd my-nodejs-app
 
+1. Build the Docker image:
+
+   ```bash
+   docker build -t yourusername/my-nodejs-app .
+
+1. Running the docker container:
+
+   ```bash
+   docker run -p 3000:3000 yourusername/my-nodejs-app
+
+
